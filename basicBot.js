@@ -270,7 +270,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: "http://smashroyale.com/forums/index.php?threads/plugdj-rules.499/",
+            rulesLink: "http://smashroyale.com/forums/index.php?threads/plugdj-rules.499",
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
