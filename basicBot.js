@@ -309,7 +309,7 @@
             cycleTimer: setTimeout(function () {
             }, 1),
             roomstats: {
-                accountName: null,
+                accountName: SmashBot,
                 totalWoots: 0,
                 totalCurates: 0,
                 totalMehs: 0,
