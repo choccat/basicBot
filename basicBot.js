@@ -280,8 +280,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/smashBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/smashBot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
         },
         room: {
@@ -898,7 +898,7 @@
                 }
             }
 
-            /*var alreadyPlayed = false;
+            /*var alreadyPlayed = true;
             for (var i = 0; i < smashBot.room.historyList.length; i++) {
                 if (smashBot.room.historyList[i][0] === obj.media.cid) {
                     var firstPlayed = smashBot.room.historyList[i][1];
@@ -914,7 +914,7 @@
             }*/
 
             if (smashBot.settings.historySkip) {
-                var alreadyPlayed = false;
+                var alreadyPlayed = true;
                 var apihistory = API.getHistory();
                 var name = obj.dj.username;
                 for (var i = 0; i < apihistory.length; i++) {
