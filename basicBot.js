@@ -197,8 +197,8 @@
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
-            cmdDeletion: true,
-            maximumAfk: 120,
+            cmdDeletion: false,
+            maximumAfk: 240,
             afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
@@ -209,7 +209,7 @@
             cycleGuard: true,
             maximumCycletime: 10,
             voteSkip: true,
-            voteSkipLimit: 5,
+            voteSkipLimit: 3,
             historySkip: true,
             timeGuard: true,
             maximumSongLength: 8,
@@ -798,7 +798,7 @@
             }
             else {
                 smashBot.room.users.push(new smashBot.User(user.id, user.username));
-                welcomeback = false;
+                welcomeback = true;
             }
             for (var j = 0; j < smashBot.room.users.length; j++) {
                 if (smashBot.userUtilities.getUser(smashBot.room.users[j]).id === user.id) {
