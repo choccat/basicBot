@@ -180,7 +180,7 @@
     var botCreatorIDs = ["3851534", "4105209", "4771031"];
 
     var basicBot = {
-        version: "1",
+        version: "2.3.4",
         status: false,
         name: "SmashBot",
         loggedInID: 6290630,
@@ -1305,7 +1305,7 @@
             }
             API.chatLog('Avatars capped at ' + basicBot.settings.startupCap);
             API.chatLog('Volume set to ' + basicBot.settings.startupVolume);
-            loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName})));
+            loadChat(API.sendChat(subChat(basicBot.chat.online, {botname: basicBot.settings.botName, version: basicBot.version})));
         },
         commands: {
             executable: function (minRank, chat) {
@@ -2840,7 +2840,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ', Modified for SmashRoyale by ' + botModifier +  ".");
+                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
                     }
                 }
             },
