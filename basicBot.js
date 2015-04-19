@@ -176,16 +176,17 @@
 
     var botCreator = "Matthew (Yemasthui)";
     var botMaintainer = "Benzi (Quoona)"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botModifier = "Choccat (Choccat)"
+    var botCreatorIDs = ["3851534", "4105209", "4771031"];
 
     var smashBot = {
         version: "1.0",
         status: false,
         name: "smashBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/smashBot/master/smashBot.js",
+        scriptLink: "https://rawgit.com/Choccat/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/smashBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/Choccat/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -193,7 +194,7 @@
         settings: {
             botName: "smashBot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/smashBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/Choccat/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
@@ -280,8 +281,8 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+                NSFW: "https://rawgit.com/Choccat/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+                OP: "https://rawgit.com/Choccat/basicBot-customization/master/blacklists/ExampleOPlist.json"
             }
         },
         room: {
@@ -2839,7 +2840,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!smashBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
+                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ' Modified by ' + botModifier + ".");
                     }
                 }
             },
