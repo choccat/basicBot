@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/smashBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/Choccat/basicBot/master/lang/langIndex.json", function (json) {
             var link = smashBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
