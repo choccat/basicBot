@@ -180,7 +180,7 @@
     var botCreatorIDs = ["3851534", "4105209", "4771031"];
 
     var basicBot = {
-        version: "2.3.4",
+        version: "1",
         status: false,
         name: "SmashBot",
         loggedInID: 6290630,
