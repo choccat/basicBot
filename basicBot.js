@@ -278,7 +278,7 @@
             website: "http://smashroyale.com",
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Choccat/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
