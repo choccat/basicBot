@@ -1,23 +1,23 @@
 {
 
-    "nodatafound": " No previous data found. ",
-    "retrievingdata": " Retrieving previously stored data...",
-    "datarestored": " Previously stored data successfully retrieved. Yay!",
-    "greyuser": " Only bouncers and up can run a bot. Ask an admin for help.",
-    "bouncer": " The bot can't move people when it's run as a bouncer. Contact an admin.",
-    "online": " %%BOTNAME%% online!",
+    "nodatafound": "No previous data found. ",
+    "retrievingdata": "Retrieving previously stored data...",
+    "datarestored": "Previously stored data successfully retrieved. Yay!",
+    "greyuser": "Only bouncers and up can run a bot. Ask an admin for help.",
+    "bouncer": "The bot can't move people when it's run as a bouncer. Contact an admin.",
+    "online": "%%BOTNAME%% online!",
 
 
-    "welcome": " /me Welcome %%NAME%% to SmashRoyale's Plug DJ.",
-    "welcomeback": " /me Welcome back, %%NAME%%",
-    "songknown": " @%%NAME%%, your song is in the room history. Try another song. :) Skipping..",
-    "timelimit": " @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs. The max song length is %%MAXLENGTH%%.",
-    "permissionownsong": " :up: @%%NAME%% has permission to play their own production!",
-    "isblacklisted": " This track is on the %%BLACKLIST%% blacklist! Skipping...",
+    "welcome": "/me Welcome %%NAME%% to SmashRoyale's Plug DJ.",
+    "welcomeback": "/me Welcome back, %%NAME%%",
+    "songknown": "@%%NAME%%, your song is in the room history. Try another song. :) Skipping..",
+    "timelimit": "@%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs. The max song length is %%MAXLENGTH%%.",
+    "permissionownsong": ":up: @%%NAME%% has permission to play their own production!",
+    "isblacklisted": "This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
 
-    "isopen": " The roulette is now open! Type !join to participate! Good Luck!",
-    "winnerpicked": " /me A winner has been picked! @%%NAME%% to position %%POSITION%%. Well done! :D",
+    "isopen": "The roulette is now open! Type !join to participate! Good Luck!",
+    "winnerpicked": " A winner has been picked! @%%NAME%% to position %%POSITION%%. Well done! :D",
 
     "ball": " %%NAME%%'s question was: \"%%QUESTION%%\" and %%BOTNAME%%'s response is: \"%%RESPONSE%%\"",
 
