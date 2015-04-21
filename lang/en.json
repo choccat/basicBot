@@ -134,6 +134,7 @@
     "oplist": "/me OP list: %%LINK%%",
     "pong": " Pong!",
     "reload": " @everyone Restarting! I shall be back. :)",
+    "reload": "/me Restarting..."
     "removenotinwl": " @%%NAME%% Specified user @%%USERNAME%% is not in the waitlist.",
     "roomrules": "/me Please follow the rules which can be found here: %%LINK%%",
     "sessionstats": " @%%NAME%% Total woots: %%WOOTS%%, total mehs: %%MEHS%%, total grabs: %%GRABS%%.",
