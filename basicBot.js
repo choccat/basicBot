@@ -2182,7 +2182,7 @@
                         var time;
                         var name;
                         if (lastSpace === msg.indexOf(' ')) {
-                            time = 0.25;
+                            time = 0.015;
                             name = msg.substring(cmd.length + 2);
                         }
                         else {
