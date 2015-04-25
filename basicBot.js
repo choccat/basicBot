@@ -215,7 +215,7 @@
             timeGuard: true,
             maximumSongLength: 8,
             autodisable: true,
-            commandCooldown: 10,
+            commandCooldown: 1,
             usercommandsEnabled: true,
             lockskipPosition: 3,
             lockskipReasons: [
