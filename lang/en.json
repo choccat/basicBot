@@ -5,7 +5,7 @@
     "datarestored": "Previously stored data successfully retrieved. Yay!",
     "greyuser": "Only bouncers and up can run a bot. Ask an admin for help.",
     "bouncer": "The bot can't move people when it's run as a bouncer. Contact an admin.",
-    "online": "%%BOTNAME%% online!",
+    "online": "I'm home honey!",
 
 
     "welcome": "/me Welcome %%NAME%% to SmashRoyale's Plug DJ.",
