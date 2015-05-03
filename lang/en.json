@@ -49,7 +49,7 @@
     "validgiftags": " @%%NAME%% http://media.giphy.com/media/%%ID%%/giphy.gif Tags: %%TAGS%%",
     "invalidgiftags": " @%%NAME%% Invalid tags, try something different. Tags: %%TAGS%%",
     "validgifrandom": " @%%NAME%% http://media.giphy.com/media/%%ID%%/giphy.gif Random GIF",
-    "invalidgifrandom": " @%%NAME%% Invalid request, try again. Sorry.",
+    "invalidgifrandom": " @%%NAME%% Invalid request, try again. Sorry. :/",
 
 
     "invalidtime": " @%%NAME%% Invalid time specified. Try again. :D",
@@ -155,5 +155,4 @@
     "youtube": " %%NAME%% Subscribe to us on youtube: %%LINK%%",
     "songstatistics": " %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
     "purchase": " @%%NAME%% Subscribe to Plug DJ at: https://plug.dj/subscribe/"
-
 }
