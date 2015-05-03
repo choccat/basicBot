@@ -2005,7 +2005,7 @@
                     }
                 }
             },
-           
+
             ghostbusterCommand: {
                 command: 'ghostbuster',
                 rank: 'user',
