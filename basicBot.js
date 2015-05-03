@@ -2005,6 +2005,50 @@
                     }
                 }
             },
+            
+            flirtCommand: {
+                command: 'flirt',
+                rank: 'user',
+                type: 'startsWith',
+                flirts: ['has given you a chocolate chip flirt!',
+                    'says that your looking mighty fine today! ;)',
+                    'says "I'm not a photographer, but I can picture me and you together."',
+                    'says "I seem to have lost my phone number. Can I have yours?"',
+                    'says "Is your daddy a Baker? Because you've got some nice buns!"',
+                    'says "Hey, don't frown. You never know who could be falling in love with your smile."',
+                    'says "You shouldn't wear makeup. It's messing with perfection!"',
+                ],
+                getflirt: function () {
+                    var c = Math.floor(Math.random() * this.flirt.length);
+                    return this.flirt[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.flirt);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserflirt, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfflirt, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.flirt, {nameto: user.username, namefrom: chat.un, flirt: this.getflirt()}));
+                            }
+                        }
+                    }
+                }
+            },
 
             ghostbusterCommand: {
                 command: 'ghostbuster',
