@@ -32,11 +32,13 @@ Manager
 |!clearchat | |clears the chat |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
+|!deletechat | @user | delete all the chats by a certain user ***Currently removed due to bug (awaiting fix)*** |
 |!filter | | toggles the chat filter |
 |!language | (language) | specify the language you would like the bot to use |
 |!lock | | lock the waitlist |
 |!lockdown | | lock down the room: only staff can chat |
 |!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
+|!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
 |!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
 |!remove | @user | remove user from the waitlist |
 |!roulette | | start a roulette |
@@ -50,14 +52,6 @@ Manager
 |!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
 |!welcome | | toggle the welcome message on user join |
 
-Bouncer+
---------
-
-|Command | Arguments |  Description |
-|:------:|:---------:|:--------------------------------------:|
-|!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
-|!deletechat | @user | delete all the chats by a certain user ***Currently removed due to bug (awaiting fix)*** |
-|!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
 
 Bouncer
 -------
