@@ -154,6 +154,5 @@
     "voteratio": " @%%NAME%% @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w/m): %%RATIO%%.",
     "website": " Visit our website at: %%LINK%%",
     "youtube": " %%NAME%% Subscribe to us on youtube: %%LINK%%",
-    "songstatistics": " %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M.",
-    "purchase": " @%%NAME%% Subscribe to Plug DJ at: https://plug.dj/subscribe/"
+    "songstatistics": " %%ARTIST%% - %%TITLE%%: %%WOOTS%%W/%%GRABS%%G/%%MEHS%%M."
 }
