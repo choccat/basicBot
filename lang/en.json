@@ -93,6 +93,7 @@
     "maximumafktimeset": " @%%NAME%% Maximum afk duration set to %%TIME%% minutes.",
     "afkstatusreset": " @%%NAME%% Reset the afk status of @%%USERNAME%%. :) ",
     "inactivefor": " @%%NAME%% %%USERNAME%% has been inactive for %%TIME%%.",
+    "inactivelonger": " @%%NAME%% , %%USERNAME%% has been inactive longer than %%BOTNAME%%'s been online.",
     "autowoot": " We recommend RCS for autowooting and much more: https://rcs.radiant.dj/",
     "brandambassador": "/me A Brand Ambassador is the voice of the plug.dj users. They promote events, engage the community and share the plug.dj message around the world. For more info: https://plug.dj/ba",
     "bouncerplusrank": "/me @%%NAME%% You have to be manager or up to enable Bouncer+. Contact an Smash Admin!",
