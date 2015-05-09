@@ -114,7 +114,7 @@
     "jointime": " @%%NAMEFROM%% @%%USERNAME%% has been in the room for %%TIME%%.",
     "kickrank": " @%%NAME%% you can't kick users with an equal or higher rank than you!",
     "kick": " @%%USERNAME%% you are being kicked from the community for %%TIME%% minutes by %%NAME%%.",
-    "kill": "/me @everyone I'm off for my sleep. Bye!",
+    "kill": "/me *Cough* I'm dying... *Dead*",
     "logout": "/me @%%NAME%% Logging out %%BOTNAME%%",
     "rouletteleave": "/me @%%NAME%% left the roulette!",
     "songlink": " @%%NAME%% Link to current song: %%LINK%%",
