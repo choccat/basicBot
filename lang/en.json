@@ -147,7 +147,6 @@
     "notbanned": " @%%NAME%% That user is not banned.",
     "unmutedeveryone": " @%%NAME%% Unmuted everyone! :D",
     "unmuteeveryonerank": " @%%NAME%% Only managers and up can unmute everyone at once. Try contacting an admin.",
-    "update": "/me Updating..."
     "notmuted": " @%%NAME%% that user insn't muted.",
     "unmuterank": " @%%NAME%% You can't unmute persons with an equal or higher rank than you.",
     "commandscd": " @%%NAME%% The cooldown for commands by users is now set to %%TIME%% seconds.",
