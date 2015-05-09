@@ -16,8 +16,8 @@
     "isblacklisted": "This track is on the %%BLACKLIST%% blacklist! Skipping...",
 
 
-    "isopen": "The roulette is now open! Type !join to participate! Good Luck!",
-    "winnerpicked": " A winner has been picked! @%%NAME%% to position %%POSITION%%. Well done! :D",
+    "isopen": "The roulette has been opened! Type !join to join.",
+    "winnerpicked": " *DrumRoll* Well done.. @%%NAME%% Moved to position %%POSITION%%.",
 
     "ball": " %%NAME%%'s question was: \"%%QUESTION%%\" and %%BOTNAME%%'s response is: \"%%RESPONSE%%\"",
 
