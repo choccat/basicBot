@@ -5,7 +5,7 @@
     "datarestored": "Previously stored data successfully retrieved. Yay!",
     "greyuser": "Only bouncers and up can run a bot. Ask an admin for help.",
     "bouncer": "The bot can't move people when it's run as a bouncer. Contact an admin.",
-    "online": "I'm home honey!",
+    "online": "/me I'm home honey!",
 
 
     "welcome": "/me Welcome %%NAME%% to SmashRoyale's Plug DJ.",
@@ -133,7 +133,7 @@
     "muterank": " @%%NAME%% You can't mute persons with an equal or higher rank than you.",
     "oplist": " /me OP list: %%LINK%%",
     "pong": " Pong!",
-    "restart": " /me Restarting...",
+    "restart": "/me Restarting...",
     "removenotinwl": " @%%NAME%% Specified user @%%USERNAME%% is not in the waitlist.",
     "roomrules": "/me Please follow the rules which can be found here: %%LINK%%",
     "sessionstats": " @%%NAME%% Total woots: %%WOOTS%%, total mehs: %%MEHS%%, total grabs: %%GRABS%%.",
