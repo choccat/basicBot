@@ -128,7 +128,7 @@
     "move": "/me %%NAME%% used move.",
     "mutednotime": " @%%NAME%% Muted @%%USERNAME%%.",
     "mutedmaxtime": " @%%NAME%% You can only mute for maximum %%TIME%% minutes.",
-    "mutedtime": " @%%NAME%% Muted @%%USERNAME%% for %%TIME%% minutes.",
+    "mutedtime": " @%%NAME%% Muted @%%USERNAME%% for %%TIME%% minute(s).",
     "unmuted": " @%%NAME%% Unmuted @%%USERNAME%%.",
     "muterank": " @%%NAME%% You can't mute persons with an equal or higher rank than you.",
     "oplist": " /me OP list: %%LINK%%",
