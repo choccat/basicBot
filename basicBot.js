@@ -1351,7 +1351,6 @@
                 return perm >= minPerm;
 
             },
-            
             /**
              command: {
                         command: 'cmd',
