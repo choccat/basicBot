@@ -1159,7 +1159,7 @@
                 'gringo', 'fuder', 'foder', 'hua', 'ahue', 'modafuka', 'modafoka', 'mudafuka', 'mudafoka', 'ooooooooooooooo', 'foda'
             ],
             curses: [
-                'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka'
+                'nigger', 'faggot', 'nigga', 'niqqa', 'motherfucker', 'modafocka', 'fuck', 'cunt', 'kant', 'shit', 'bitch'
             ]
         },
         connectAPI: function () {
