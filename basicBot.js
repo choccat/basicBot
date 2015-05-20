@@ -1351,12 +1351,7 @@
                 return perm >= minPerm;
 
             },
-            clearTimeout(skipTimer);
-            skipTimer = setTimeout(function () {
-                if (bot.getMedia().cid == data.media.cid) {
-                    bot.moderateForceSkip();
-                }
-            }, (data.media.duration + 5) * 1000);
+            
             /**
              command: {
                         command: 'cmd',
